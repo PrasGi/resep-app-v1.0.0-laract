@@ -1,8 +1,8 @@
 # Hello, Im Prass
 
 This is aplication from learning about react but i am use react in laravel so i am must be use Inertia in
-
-laravel, this is how to install this project to your localy, you must be follow step by step :).
+laravel, this is how to install this project to your localy, you must be follow step by step :). and before you
+start please make sure in your localy have composer, laravel and npm :).
 
 <b>First you need have laragon ang code editor and then<b/>
 
@@ -11,6 +11,7 @@ laravel, this is how to install this project to your localy, you must be follow 
 
 ## Installation
 
+-   rename [.env.example] to [.env]
 -   open [.env] in aplication and rename DB_DATABASE value to [learn_resep_app]
 -   in [APP_URL] set the value to [http://localhost:8000]
 -   add [FILESYSTEM_DISK=public] in new line
@@ -20,6 +21,7 @@ in terminal write this and enter
 ```
 composer install
 php artisan migrate:fresh --seed
+php artisan keu:generate
 ```
 
 and then add new terminal, in terminal 1 write this and enter
