@@ -1,92 +1,42 @@
 # Hello, Im Prass
 
-module main
+    This is aplication from learning about react but i am use react in laravel so i am must be use Inertia in
 
-aboutMe :: struct {
-pronouns :: string[];
-languages :: string[];
-hobbies :: string[];
-funFact :: string;
-}
+laravel, this is how to install this project to your localy, you must be follow step by step :).
 
-main :: func(): void {
-ethan :: aboutMe = {
-pronouns: ["He", "Him"],
-languages: ["C", "C#", "Java", "Python"],
-hobbies: ["Coding", "Gaming", "Talking"],
-funFact: "The first computer virus was created in 1983!"
-};
+<b>First you need have laragon ang code editor and then<b/>
 
-println "Pronouns: ${ethan.pronouns}";
-println "Languages I Know: ${ethan.languages}";
-println "My Hobbies: ${ethan.hobbies}";
-println "Fun Fact: ${ethan.funFact}";
-}
+-   open your laragon and make new database with name [learn_resep_app]
+-   open project in your code editor
+
+## Installation
 
 ```
-
-## 𝗪𝗵𝗮𝘁 𝗜 𝗨𝘀𝗲
-
-<table>
-  <tbody>
-    <tr valign="top">
-      <td width="25%" align="center">
-        <span>𝗖</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/c.svg">
-      </td>
-      <td width="25%" align="center">
-        <span>𝗖#</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/c-sharp.svg">
-      </td>
-      <td width="25%" align="center">
-        <span>𝗝𝗮𝘃𝗮</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/java.svg">
-      </td>
-      <td width="25%" align="center">
-        <span>𝗣𝘆𝘁𝗵𝗼𝗻</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/python.svg">
-      </td>
-    </tr>
-    <tr valign="top">
-      <td width="25%" align="center">
-        <span>𝗦𝘂𝗯𝗹𝗶𝗺𝗲 𝗧𝗲𝘅𝘁 𝟯</span><br><br><br>
-        <img height="64px" src="https://cdn.worldvectorlogo.com/logos/sublime-text.svg">
-      </td>
-      <td width="25%" align="center">
-        <span>𝗚𝗶𝘁</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/git-icon.svg">
-      </td>
-      <td width="25%" align="center">
-        <span>𝗩𝗶𝘀𝘂𝗮𝗹 𝗦𝘁𝘂𝗱𝗶𝗼 𝗖𝗼𝗱𝗲</span><br><br><br>
-        <img height="64px" src="https://cdn.svgporn.com/logos/visual-studio-code.svg">
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-# 𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗼𝗻
-
--   💻 [Sadie Programming Language](https://github.com/sadie-lang/Sadie)
-
-# 𝗠𝘆 𝗦𝘁𝗮𝘁𝘀
-
-![Github stats](https://github-readme-stats.vercel.app/api?username=munific&show_icons=true&hide_border=true)
-
-# 𝗪𝗵𝗮𝘁 𝘄𝗶𝗹𝗹 𝗶 𝗱𝗼 𝘁𝗵𝗶𝘀 𝘄𝗲𝗲𝗸
-
-I have achieved:
-
--   Write a tokenizer for [Sadie-lang](https://github.com/sadie-lang/Sadie)
-
-## Show ❤️ By Starring My Repos!
-
-# Other
-
-Sadie-lang Discord:
-
-![Discord](https://img.shields.io/discord/731577337686130858?label=Join%20The%20DIscord%21&logo=Sadie%20Lang&style=for-the-badge)
-
----
-
-⭐️ From [munific](https://github.com/munific)
+- open [.env] in aplication and rename DB_DATABASE value to [learn_resep_app]
+- in [APP_URL] set the value to [http://localhost:8000]
+- add [FILESYSTEM_DISK=public] in new line
 ```
+
+in terminal write this and enter
+
+```
+composer install
+php artisan migrate:fresh --seed
+```
+
+and then add new terminal, in terminal 1 write this and enter
+
+```
+php artisan serve
+```
+
+in terminal 2 write this and enter
+
+```
+npm install
+npm run dev
+```
+
+last open your browser and open this link [localhost:8000]
+
+if you have problem you can contact me in whatssapp [082279092168] or email [prastyopratama01@gmail.com]
